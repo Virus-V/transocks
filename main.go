@@ -15,7 +15,7 @@ import (
 
 var (
 	listenAddr = flag.String("l", "127.0.0.1:8388", "local listen address")
-	proxyAddr  = flag.String("p", "", "proxy address")
+	proxyAddr  = flag.String("p", "", "proxy address (eg. socks5://192.168.1.100:1080)")
 )
 
 var wg sync.WaitGroup
